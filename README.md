@@ -6,11 +6,11 @@ Modelo estático e responsivo estilo Linktree. Ana Lemos é uma personagem fict�
 
 Edite config.js: nome, bio, foto, botões, URLs e redes sociais. URLs vazias exibem um aviso de demonstração; preencha com https://, mailto: ou tel:. Em styles.css, personalize as variáveis de cores em :root. A preferência claro/escuro é salva localmente.
 
-## Publicar
+## Publicar com GitHub Actions
 
-GitHub → Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save.
+Em **Settings → Pages → Build and deployment**, escolha **GitHub Actions**. O arquivo `.github/workflows/deploy.yml` publica automaticamente o conteúdo estático a cada push na branch main, e também permite disparar pela aba Actions. Não é necessário selecionar "Deploy from a branch".
 
-URL esperada: https://guaraagency-julio.github.io/bio-modelo-simples/
+URL: https://guaraagency-julio.github.io/bio-modelo-simples/
 
 Para usar no domínio de outro site, copie index.html, styles.css, config.js e app.js para uma pasta /bio/ do site do cliente. Os caminhos já são relativos.
 
