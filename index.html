@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#edede6">
+<meta name="description" content="Uma página, todos os links. Modelo demonstrativo de biosite por Guará Agency.">
+<meta property="og:title" content="Ana Lemos | Links e contato"><meta property="og:description" content="Fotografia, projetos e contato em um lugar.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200&fit=crop">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css"><title>Ana Lemos | Links e contato</title>
+</head>
+<body>
+<svg class="sprites" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.6" r=".8" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-12 7l-4 1 1-4A8 8 0 1 1 20 12Z"/><path d="M9 8c.6 3 2.7 5.4 6 6.8l1.5-1.3 1 1.3-1.4 2c-4 .3-8.4-3.3-8.8-7.1L9 8Z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.5 1.5m11.2 11.2 1.5 1.5M2 12h2m16 0h2M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 14A9 9 0 0 1 10 3a9 9 0 1 0 11 11Z"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V3m-4 4 4-4 4 4M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+</svg>
+<div class="orb orb-a" aria-hidden="true"></div><div class="orb orb-b" aria-hidden="true"></div>
+<main class="page">
+<header class="topbar"><span class="topbar-caption"><span class="small-dot"></span> UM LUGAR, TODOS OS LINKS</span><button id="theme-toggle" class="circle-button" title="Alternar tema" aria-label="Alternar tema" type="button"><svg class="icon"><use href="#i-moon"/></svg></button></header>
+<section class="profile" aria-label="Apresentação">
+<div class="avatar-shell"><div class="avatar-ring"></div><img id="avatar" class="avatar" width="160" height="160" alt="Fotografia ilustrativa de uma profissional criativa" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=420&h=420&fit=crop&crop=faces&auto=format&q=85"><span class="sparkle">✳</span></div>
+<p class="status"><span class="small-dot"></span><span id="status">Agenda aberta para novos projetos</span></p>
+<p id="category" class="eyebrow">FOTOGRAFIA · DIREÇÃO CRIATIVA</p>
+<h1 id="name">Ana <em>Lemos.</em></h1><p id="description" class="description">Transformo momentos e ideias em imagens que contam histórias. Que bom ter você por aqui!</p>
+</section>
+<section class="links-section" aria-label="Links principais"><div class="section-caption"><span>POR ONDE COMEÇAMOS?</span><span>↘</span></div><div id="links" class="links"></div></section>
+<nav id="socials" class="socials" aria-label="Redes sociais"></nav>
+<button id="share" class="share" type="button"><svg class="icon"><use href="#i-share"/></svg> Compartilhar esta página</button>
+<footer><span>© <span id="year"></span> <span id="copyright-name">Ana Lemos</span></span><span>MODELO DEMONSTRATIVO · <a href="https://www.guaraagency.com.br/" target="_blank" rel="noopener noreferrer">GUARÁ AGENCY ↗</a></span></footer>
+</main>
+<dialog id="demo" class="demo"><button id="close-demo" class="circle-button close-demo" type="button" aria-label="Fechar"><svg class="icon"><use href="#i-close"/></svg></button><span class="dialog-symbol">✳</span><p class="eyebrow">MODELO DEMONSTRATIVO</p><h2 id="dialog-title">Seu link vai aqui.</h2><p>Este botão será conectado ao endereço real do cliente. Edite o arquivo config.js para ativar o link.</p><button id="ok-demo" class="ok-button" type="button">Entendi ↗</button></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="./config.js"></script><script src="./app.js" defer></script>
+</body></html>
